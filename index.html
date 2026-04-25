@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Concrete and Landscapes | Concrete Christchurch</title>
+    <meta name="description" content="Advanced Concrete and Landscapes — Unlock Your Property's Potential with Advanced!. 5.0★ Google Rating.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+    <link rel="stylesheet" href="css/premium.css">
+</head>
+<body class="dark-mode">
+
+    <!-- LOADING SCREEN -->
+    <div class="loader" id="loader">
+        <div class="loader-logo">ACL<span>.</span></div>
+        <div class="loader-bar"><div class="loader-fill"></div></div>
+    </div>
+
+    <!-- SCROLL PROGRESS -->
+    <div class="scroll-progress" id="scroll-progress"></div>
+
+    <!-- HEADER -->
+    <header class="main-header" id="main-header">
+        <div class="container header-inner">
+            <a href="#home" class="logo">ACL<span>.</span></a>
+            <nav class="main-nav" id="main-nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#testimonials">Reviews</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="header-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                    <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+                    <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+                </button>
+                <a href="tel:0272615268" class="header-phone">027 261 5268</a>
+                <a href="#contact" class="btn btn-primary btn-sm">Get Quote</a>
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- MOBILE NAV -->
+    <div class="mobile-nav" id="mobile-nav">
+        <a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a>
+        <a href="#gallery">Gallery</a><a href="#testimonials">Reviews</a><a href="#contact">Contact</a>
+    </div>
+
+    <main>
+        <!-- HERO -->
+        <section class="hero" id="home">
+            <video class="hero-video" autoplay muted loop playsinline poster="images/concrete-driveway.jpg">
+                <source src="https://videos.pexels.com/video-files/5765431/5765431-uhd_2560_1440_24fps.mp4" type="video/mp4">
+            </video>
+            <div class="hero-overlay"></div>
+            <div class="hero-particles" id="particles"></div>
+            <div class="container hero-content">
+                <div class="hero-badge">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="#FBBF24"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                    <span>5 from 23 Google Reviews</span>
+                </div>
+                <h1>Concrete Driveways and Lawns in Christchurch</h1>
+                <p class="hero-sub">Unlock Your Property's Potential with Advanced!</p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary btn-lg">Get a Free Quote</a>
+                    <a href="#gallery" class="btn btn-glass btn-lg">View Our Work</a>
+                </div>
+            </div>
+            <div class="hero-scroll">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="7 13 12 18 17 13"/><polyline points="7 6 12 11 17 6"/></svg>
+            </div>
+        </section>
+
+        <!-- STATS BAR -->
+        <section class="stats-bar">
+            <div class="container stats-inner">
+                <div class="stat-item"><span class="stat-num" data-target="23">0</span><span class="stat-text">Five-Star Reviews</span></div>
+                <div class="stat-item"><span class="stat-num" data-target="100">0</span><span class="stat-suffix">+</span><span class="stat-text">Projects Completed</span></div>
+                <div class="stat-item"><span class="stat-num" data-target="10">0</span><span class="stat-suffix">+</span><span class="stat-text">Years Experience</span></div>
+                <div class="stat-item"><span class="stat-num" data-target="5">0</span><span class="stat-suffix">.0</span><span class="stat-text">Google Rating</span></div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-img-wrap"><img src="images/large-project.jpg" alt="Advanced Concrete and Landscapes project" loading="lazy"></div>
+                    <div class="about-content">
+                        <span class="section-tag">About Us</span>
+                        <h2>Your Local Christchurch Experts in Concrete</h2>
+                        <p>Your specialists in concrete driveways, lush artificial lawns, and complete landscape packages. We also offer a range of enhancement services to elevate your outdoor space. With an eye for design, we specialize in bringing your landscape and concrete visions to life.</p><p>Led by Reagan (Regan) Wagstaff, with a dedicated team including Jared and Mike, we deliver quality results on every project.</p>
+                        <div class="about-features">
+                            <div class="feature"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><span>Perfect 5.0 star Google rating across 23 reviews — flawless reputation</span></div><div class="feature"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><span>Dual-service expertise (concrete AND landscaping) — one-stop shop</span></div><div class="feature"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><span>Artificial lawn specialist — niche offering not all competitors have</span></div><div class="feature"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><span>Owner-operated with personal attention from Reagan</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES -->
+        <section id="services" class="section section-alt">
+            <div class="container">
+                <div class="section-header"><span class="section-tag">What We Do</span><h2>Our Services</h2><p>From durable, stylish concrete solutions to complete outdoor transformations.</p></div>
+                <div class="services-tabs"><button class="tab-btn active" data-tab="driveways">Driveways</button><button class="tab-btn" data-tab="lawns">Artificial Lawns</button><button class="tab-btn" data-tab="landscapes">Landscape Packages</button><button class="tab-btn" data-tab="paths">Paths & Patios</button><button class="tab-btn" data-tab="pools">Decks</button><button class="tab-btn" data-tab="paving">Paving Stones</button></div>
+                <div class="services-showcase">
+                    <div class="service-panel active" data-panel="driveways"><div class="service-img"><img src="images/concrete-driveway.jpg" alt="Concrete Driveways" loading="lazy"></div><div class="service-info"><h3>Concrete Driveways</h3><p>Exposed aggregate and plain concrete driveways for residential and commercial properties</p><a href="#contact" class="btn btn-primary">Get a Quote</a></div></div>
+                    <div class="service-panel" data-panel="lawns"><div class="service-img"><img src="images/artificial-lawn.jpg" alt="Artificial Lawns" loading="lazy"></div><div class="service-info"><h3>Artificial Lawns</h3><p>Specialized installation of lush artificial grass</p><a href="#contact" class="btn btn-primary">Get a Quote</a></div></div>
+                    <div class="service-panel" data-panel="landscapes"><div class="service-img"><img src="images/modern-landscaping.jpg" alt="Complete Landscape Packages" loading="lazy"></div><div class="service-info"><h3>Complete Landscape Packages</h3><p>Full landscape design and construction including garden makeovers</p><a href="#contact" class="btn btn-primary">Get a Quote</a></div></div>
+                    <div class="service-panel" data-panel="paths"><div class="service-img"><img src="images/patio-path.jpg" alt="Concrete Paths & Patios" loading="lazy"></div><div class="service-info"><h3>Concrete Paths & Patios</h3><p>Walkways, patios, and outdoor entertainment areas</p><a href="#contact" class="btn btn-primary">Get a Quote</a></div></div>
+                    <div class="service-panel" data-panel="pools"><div class="service-img"><img src="images/patio-path.jpg" alt="Concrete Decks" loading="lazy"></div><div class="service-info"><h3>Concrete Decks</h3><p>Concrete deck construction</p><a href="#contact" class="btn btn-primary">Get a Quote</a></div></div>
+                    <div class="service-panel" data-panel="paving"><div class="service-img"><img src="images/large-project.jpg" alt="Paving Stones" loading="lazy"></div><div class="service-info"><h3>Paving Stones</h3><p>Paving stone installation in geometric patterns</p><a href="#contact" class="btn btn-primary">Get a Quote</a></div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GALLERY -->
+        <section id="gallery" class="section">
+            <div class="container">
+                <div class="section-header"><span class="section-tag">Our Work</span><h2>Project Gallery</h2><p>See the quality and craftsmanship for yourself.</p></div>
+                <div class="gallery-grid">
+                    <div class="gallery-item large" data-index="0"><img src="images/concrete-driveway.jpg" alt="Concrete driveway" loading="lazy"><div class="gallery-overlay"><span>View</span></div></div>
+                    <div class="gallery-item" data-index="1"><img src="images/artificial-lawn.jpg" alt="Artificial lawn" loading="lazy"><div class="gallery-overlay"><span>View</span></div></div>
+                    <div class="gallery-item" data-index="2"><img src="images/modern-landscaping.jpg" alt="Landscaping" loading="lazy"><div class="gallery-overlay"><span>View</span></div></div>
+                    <div class="gallery-item" data-index="3"><img src="images/patio-path.jpg" alt="Patio path" loading="lazy"><div class="gallery-overlay"><span>View</span></div></div>
+                    <div class="gallery-item" data-index="4"><img src="images/large-project.jpg" alt="Large project" loading="lazy"><div class="gallery-overlay"><span>View</span></div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- LIGHTBOX -->
+        <div class="lightbox" id="lightbox">
+            <button class="lb-close" aria-label="Close">&times;</button>
+            <button class="lb-prev" aria-label="Previous">&#8249;</button>
+            <button class="lb-next" aria-label="Next">&#8250;</button>
+            <img class="lb-img" id="lb-img" src="" alt="Gallery image">
+            <div class="lb-counter" id="lb-counter"></div>
+        </div>
+
+        <!-- TESTIMONIALS -->
+        <section id="testimonials" class="section section-alt">
+            <div class="container">
+                <div class="section-header"><span class="section-tag">Social Proof</span><h2>What Our Clients Say</h2><p>Every single one of our 23 Google reviews is 5 stars.</p></div>
+                <div class="testimonial-track" id="testimonial-track">
+                    <div class="testimonial-card"><div class="tc-header"><div class="tc-avatar">G</div><div><div class="tc-name">Google Review</div><div class="tc-stars">★★★★★</div></div></div><p>"Incredible attention to detail, particularly in paving alignment and concrete finishing."</p><span class="tc-theme">Quality & Attention to Detail</span></div>
+                    <div class="testimonial-card"><div class="tc-header"><div class="tc-avatar">G</div><div><div class="tc-name">Google Review</div><div class="tc-stars">★★★★★</div></div></div><p>"Reagan and his team are professional, efficient, and great to deal with."</p><span class="tc-theme">Professionalism</span></div>
+                    <div class="testimonial-card"><div class="tc-header"><div class="tc-avatar">G</div><div><div class="tc-name">Google Review</div><div class="tc-stars">★★★★★</div></div></div><p>"Clear communication, turned up on time, and completed the project within the promised timeframe."</p><span class="tc-theme">Reliability & Communication</span></div>
+                    <div class="testimonial-card"><div class="tc-header"><div class="tc-avatar">G</div><div><div class="tc-name">Google Review</div><div class="tc-stars">★★★★★</div></div></div><p>"Very reasonable pricing for the quality of work provided."</p><span class="tc-theme">Value for Money</span></div>
+                    <div class="testimonial-card"><div class="tc-header"><div class="tc-avatar">G</div><div><div class="tc-name">Google Review</div><div class="tc-stars">★★★★★</div></div></div><p>"Reagan helped fix a botched job from a previous contractor, demonstrating high integrity and expertise."</p><span class="tc-theme">Trustworthiness & Expertise</span></div>
+                    <div class="testimonial-card"><div class="tc-header"><div class="tc-avatar">F</div><div><div class="tc-name">Facebook Review</div><div class="tc-stars">★★★★★</div></div></div><p>"Local business supporting local business. Stoked to be able to help get this concrete pad sorted for you guys."</p><span class="tc-theme">Community & Local Business Support</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MAP -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header"><span class="section-tag">Location</span><h2>Serving All of Christchurch</h2><p>241 Condell Avenue, Papanui, Christchurch, 8053</p></div>
+                <div class="map-wrap">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2891.5!2d172.6195!3d-43.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDPCsDMwJzAwLjAiUyAxNzLCsDM3JzEwLjIiRQ!5e0!3m2!1sen!2snz!4v1" width="100%" height="400" style="border:0;border-radius:12px" allowfullscreen loading="lazy" title="Christchurch location"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="section section-alt">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <span class="section-tag">Get In Touch</span>
+                        <h2>Ready to Transform Your Outdoor Space?</h2>
+                        <p>Get a free consultation and quote. We'll visit your property, discuss your vision, and provide a detailed plan.</p>
+                        <div class="contact-details">
+                            <div class="cd-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg><div><strong>Phone</strong><a href="tel:0272615268">027 261 5268</a></div></div>
+                            <div class="cd-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><div><strong>Email</strong><a href="mailto:regan@advancedcnl.co.nz">regan@advancedcnl.co.nz</a></div></div>
+                            <div class="cd-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg><div><strong>Address</strong><span>241 Condell Avenue, Papanui, Christchurch, 8053</span></div></div>
+                        </div>
+                    </div>
+                    <div class="contact-form-wrap">
+                        <form class="contact-form" id="contact-form">
+                            <div class="form-step active" data-step="1">
+                                <h3>Your Details</h3>
+                                <div class="form-group"><label for="cf-name">Full Name</label><input type="text" id="cf-name" required placeholder="Your name"></div>
+                                <div class="form-group"><label for="cf-email">Email</label><input type="email" id="cf-email" required placeholder="you@email.com"></div>
+                                <div class="form-group"><label for="cf-phone">Phone</label><input type="tel" id="cf-phone" placeholder="027 000 0000"></div>
+                                <button type="button" class="btn btn-primary btn-full" onclick="nextStep(2)">Next Step →</button>
+                            </div>
+                            <div class="form-step" data-step="2">
+                                <h3>Project Details</h3>
+                                <div class="form-group"><label for="cf-service">Service Needed</label><select id="cf-service"><option>Concrete Driveway</option><option>Artificial Lawn</option><option>Landscape Package</option><option>Paths & Patios</option><option>Pool Surround</option><option>Paving Stones</option><option>Other</option></select></div>
+                                <div class="form-group"><label for="cf-msg">Tell us about your project</label><textarea id="cf-msg" rows="4" placeholder="Describe your vision..."></textarea></div>
+                                <div style="display:flex;gap:12px"><button type="button" class="btn btn-glass btn-full" onclick="nextStep(1)">← Back</button><button type="submit" class="btn btn-primary btn-full">Send Request</button></div>
+                            </div>
+                            <div class="form-step" data-step="3">
+                                <div class="form-success"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><h3>Thank You!</h3><p>We'll be in touch within 24 hours to discuss your project.</p></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FLOATING CTA -->
+    <a href="#contact" class="floating-cta" id="floating-cta">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+        Get Free Quote
+    </a>
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <div class="logo" style="margin-bottom:12px">ACL<span>.</span></div>
+                <p>Transforming Christchurch properties with premium concrete services.</p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/advancedconcretelandscapes" target="_blank" rel="noopener" aria-label="Facebook">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-col"><h4>Services</h4><a href="#services">Concrete Driveways</a><a href="#services">Artificial Lawns</a><a href="#services">Complete Landscape Packages</a><a href="#services">Concrete Paths & Patios</a><a href="#services">Concrete Decks</a></div>
+            <div class="footer-col"><h4>Company</h4><a href="#about">About Us</a><a href="#gallery">Gallery</a><a href="#testimonials">Reviews</a><a href="#contact">Contact</a></div>
+            <div class="footer-col"><h4>Contact</h4><a href="tel:0272615268">027 261 5268</a><a href="mailto:regan@advancedcnl.co.nz">regan@advancedcnl.co.nz</a><span>241 Condell Avenue, Papanui, Christchurch, 8053</span></div>
+        </div>
+        <div class="footer-bottom"><p>&copy; 2026 Advanced Concrete and Landscapes. All rights reserved.</p></div>
+    </footer>
+
+    <!-- BACK TO TOP -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>
+    </button>
+
+    <script src="js/premium.js"></script>
+</body>
+</html>
